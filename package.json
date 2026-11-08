@@ -1,0 +1,14 @@
+{
+  "name": "isbn-check-core",
+  "version": "0.1.0",
+  "description": "ISBN-10/ISBN-13 validation and check-digit generation. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/isbn.test.js",
+    "demo": "node bin/isbn-check.mjs --assert"
+  }
+}
